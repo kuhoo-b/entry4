@@ -1,0 +1,82 @@
+
+*{
+    margin-left: 20px;
+    padding: 0px;
+}
+
+body{
+background-color: rgb(176, 176, 111);
+color: rgb(18, 23, 27);
+font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 35, 138);
+    margin-left: 35vh;
+    font-size: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.food{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+img{
+    width: 50%;
+    height: 70%;
+   }
+
+.caption1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.movie{
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 70PX;
+}
+
+.caption2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+body {
+	background: linear-gradient(-45deg, #e7f673, #e14b87, #26bdf4, #1bed14);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 250vh;
+}
+
+.hw{
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 70PX;
+}
+
+video{
+    width: 50%;
+    height: 70%; 
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
